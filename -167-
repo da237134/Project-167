@@ -5,7 +5,7 @@ root = Tk()
 root.title("Working On Canvas Using Functions")
 root.geometry("1000x500")
 
-note = Label(root, text = "Note - To draw Circle / Rectangle / Line, press - c / r / l, respectively.")
+note = Label(root, text = "Note - To draw Circle / Rectangle / Line, press - c or r or l.")
 note.place(relx = 0.1, rely = 0.9)
 
 label = Label(root, text = "Choose Color :")
